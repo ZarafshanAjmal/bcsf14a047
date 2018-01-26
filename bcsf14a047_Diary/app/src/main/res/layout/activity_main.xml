@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    tools:context="mobifun.myapplication2.MainActivity">
+
+    <Button
+
+        android:id="@+id/writeTodayStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="About YourSelf"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"/>
+
+    <Button
+
+        android:id="@+id/Show_Yourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="Info About Yourself"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Button
+
+        android:id="@+id/Story"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="Write in Diary"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+
+
+    <Button
+
+        android:id="@+id/setReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="Set Reminder"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Button
+
+        android:id="@+id/Biogrraphy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="Biography"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+
+        android:id="@+id/ReadDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/standard_button"
+        android:fontFamily="sans-serif-light"
+        android:padding="24dp"
+        android:text="Read Diary"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+</LinearLayout>
